@@ -1,0 +1,33 @@
+{
+  "name": "dns-resolve",
+  "version": "1.0.0",
+  "description": "DNS resolution with timeout and retry control.",
+  "main": "dist/cjs/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "cmplr --type-check",
+    "test": "node --test dist/cjs/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bredele/dns-resolve.git"
+  },
+  "keywords": [
+    "dns",
+    "resolution",
+    "timeout",
+    "retry"
+  ],
+  "author": "Olivier Wietrich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/dns-resolve/issues"
+  },
+  "homepage": "https://github.com/bredele/dns-resolve#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "cmplr": "^1.1.0"
+  }
+}
